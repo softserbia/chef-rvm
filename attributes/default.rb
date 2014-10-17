@@ -52,6 +52,9 @@ default['rvm']['installer_flags'] = "stable"
 default['rvm']['root_path']     = "/usr/local/rvm"
 default['rvm']['group_id']      = 'default'
 default['rvm']['group_users']   = []
+# Autolibs
+default['rvm']['autolibs'] = "enabled"
+default['rvm']['user_autolibs'] = "disabled"
 
 case platform
 when "redhat","centos","fedora","scientific","amazon"
