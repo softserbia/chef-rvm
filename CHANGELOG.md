@@ -13,6 +13,14 @@
 
 * Pull request [#246](https://github.com/fnichol/chef-rvm/pull/246): Updated README.md documenting use with librarian-chef ([@ncreuschling][])
 
+### Bug Fixes
+
+* Pull request [#285](https://github.com/fnichol/chef-rvm/pull/285): Use GPG for rvm verification. ([@lukeasrodgers][])
+* Pull request [#284](https://github.com/fnichol/chef-rvm/pull/284): Use full class name for rvm_environment resource usage inside Chef::Provider::Package:RVMRubygems class. ([@nomadium][])
+* Pull request [#300](https://github.com/fnichol/chef-rvm/pull/300): Ability to configure key server and home did for rvm gpg_key ([@lesniakania][])
+* Pull request [#298](https://github.com/martinisoft/chef-rvm/pull/298): Add GPG check for user installs ([@cmluciano][])
+* Pull request [#325](https://github.com/martinisoft/chef-rvm/pull/325): Fix ruby block to align with new style ([@cmluciano][])
+
 ## 0.9.2 (March 31, 2014)
 
 ### Bug fixes
@@ -239,3 +247,7 @@ seen by checking the tagged releases and reading git commit messages.
 [@dosire]: https://github.com/dosire
 [@zsol]: https://github.com/zsol
 [@ncreuschling]: https://github.com/ncreuschling
+[@lukeasrodgers]: https://github.com/lukeasrodgers
+[@nomadium]: https://github.com/nomadium
+[@lesniakania]: https://github.com/lesniakania
+[@cmluciano]: https://github.com/cmluciano

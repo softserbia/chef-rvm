@@ -56,6 +56,9 @@ default['rvm']['group_users']   = []
 default['rvm']['autolibs'] = "enabled"
 default['rvm']['user_autolibs'] = "disabled"
 
+# GPG key for rvm verification
+default['rvm']['gpg_key']       = 'D39DC0E3'
+
 case platform
 when "redhat","centos","fedora","scientific","amazon"
   node.set['rvm']['install_pkgs']   = %w{sed grep tar gzip bzip2 bash curl git}
